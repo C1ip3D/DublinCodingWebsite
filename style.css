@@ -1,0 +1,178 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    --maincolor: rgb(108, 175, 108);
+    --favcolor: rgb(56, 55, 55);
+    --secondmain: rgb(17, 82, 156);
+    scroll-behavior: smooth;
+    font-family: 'Recursive', sans-serif;
+}
+
+*{
+	
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: var(--maincolor);
+    height: 55px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border: 3px solid black;
+}
+
+nav a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: .7s linear;
+    padding: 10px;
+    font-family: 'Recursive', sans-serif;
+}
+
+nav h1{
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Recursive', sans-serif;
+}
+
+nav a:hover{
+    background-color: var(--favcolor);
+    
+}
+
+.title{
+    background-image: url("./Assets/coding\ title.jpg");
+    background-size: cover;
+    height:  900px;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    margin-top: 150;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 1px;
+    color: white;
+    margin-top: 50px;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Recursive', sans-serif;
+}
+
+nav img{
+    height: 40px;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+.bio{
+    background-color: var(--maincolor);
+}
+
+.left{
+    display: inline-block;
+    padding: 40px;
+    font-size: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.left img{
+    padding: 0;
+    margin: 0;
+}
+
+.right{
+    display: inline-block;
+    padding: 40px;
+    vertical-align: top;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Recursive', sans-serif;
+}
+
+footer{
+    background-color: var(--maincolor);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 250;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: .2s linear;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Recursive', sans-serif;
+}
+
+footer a:hover{
+    background-color: var(--secondmain);
+}
+
+footer h3{
+    font-size: 20px;
+    padding: 20;
+    font-family: 'Recursive', sans-serif;
+    margin: 0;
+}
+
+#enroll{
+    text-align: center;
+    background-color: var(--secondmain);
+    text-decoration: none;
+    font-family: 'Recursive', sans-serif;
+    border: 3px solid black;
+}
+
+#enroll h1{
+    margin: 0px;
+    padding: 30px;
+}
+
+#enroll h3{
+    margin: 0;
+    padding: 30px;
+}
+
+#form {
+    color: black;
+}
+
+.curriculum {
+    justify-content: space-evenly;
+    text-align: center;
+    background-color:  rgb(0, 225, 255);
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.curriculum table{
+    margin-left: 500px;
+    padding-bottom: 10px;
+    width: 40%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#enroll iframe{
+    width: 100%;
+};
+

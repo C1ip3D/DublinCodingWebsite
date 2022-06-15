@@ -1,0 +1,19 @@
+body  {
+    padding: 0px;
+    margin: 0px;
+    --maincolor: rgb(45, 163, 50);
+    --favcolor: rgb(56, 55, 55);
+    --secondmain: rgb(52, 122, 228);
+    font-family: 'Recursive', sans-serif;
+    background-color: var(--maincolor);
+    list-style: none;
+    line-height: 40px;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
